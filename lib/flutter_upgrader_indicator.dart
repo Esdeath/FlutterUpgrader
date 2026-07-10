@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_upgrader/flutter_upgrader_wave.dart';
+import 'package:flutter_upgrader_plus/flutter_upgrader_wave.dart';
 
 class LiquidProgressIndicator extends ProgressIndicator {
   final Axis direction;

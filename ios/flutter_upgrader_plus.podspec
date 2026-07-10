@@ -1,15 +1,15 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint flutter_upgrader.podspec` to validate before publishing.
+# Run `pod lib lint flutter_upgrader_plus.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_upgrader'
-  s.version          = '1.0.7'
+  s.name             = 'flutter_upgrader_plus'
+  s.version          = '1.1.21'
   s.summary          = 'A Flutter App Upgrader plugin.'
   s.description      = <<-DESC
 A Flutter App Upgrader plugin, Support ios and android upgrade from the app store.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/Esdeath/FlutterUpgrader'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }

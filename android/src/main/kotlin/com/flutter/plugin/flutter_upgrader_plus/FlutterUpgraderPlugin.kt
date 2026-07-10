@@ -1,4 +1,4 @@
-package com.flutter.plugin.flutter_upgrader
+package com.flutter.plugin.flutter_upgrader_plus
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -22,7 +22,7 @@ class FlutterUpgraderPlugin: FlutterPlugin, MethodCallHandler {
 
   override fun onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
     mainContext = flutterPluginBinding.applicationContext
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_upgrader")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_upgrader_plus")
     channel.setMethodCallHandler(this)
   }
 

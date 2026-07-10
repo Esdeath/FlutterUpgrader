@@ -1,7 +1,9 @@
-name: flutter_upgrader
-description: A user-friendly Flutter application upgrade plug-in, which supports both ios and android Welcome to use and feedback.
-homepage: https://github.com/flutter-library-provider/FlutterUpgrader
-version: 1.1.20
+name: flutter_upgrader_plus
+description: A maintained Flutter app upgrade plugin for Android and iOS, supporting app market redirects and APK download flows.
+homepage: https://github.com/Esdeath/FlutterUpgrader
+repository: https://github.com/Esdeath/FlutterUpgrader
+issue_tracker: https://github.com/Esdeath/FlutterUpgrader/issues
+version: 1.1.21
 
 environment:
   sdk: ">=3.6.1 <4.0.0"
@@ -36,7 +38,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.flutter.plugin.flutter_upgrader
+        package: com.flutter.plugin.flutter_upgrader_plus
         pluginClass: FlutterUpgraderPlugin
       ios:
         pluginClass: FlutterUpgraderPlugin

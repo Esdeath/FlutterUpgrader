@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter/services.dart';
-import 'package:flutter_upgrader/flutter_upgrader.dart';
+import 'package:flutter_upgrader_plus/flutter_upgrader.dart';
 
 class FlutterUpgradeChanneler {
-  static const MethodChannel _channel = MethodChannel('flutter_upgrader');
+  static const MethodChannel _channel = MethodChannel('flutter_upgrader_plus');
 
   // 获取app信息
   static Future<AppInfo> get appInfo async {

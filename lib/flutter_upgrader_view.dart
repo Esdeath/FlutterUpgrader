@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_upgrader/flutter_upgrader.dart';
-import 'package:flutter_upgrader/flutter_upgrader_indicator.dart';
+import 'package:flutter_upgrader_plus/flutter_upgrader.dart';
+import 'package:flutter_upgrader_plus/flutter_upgrader_indicator.dart';
 
 // 升级提示 View
 class SimpleUpgradeViewWidget extends StatefulWidget {
@@ -389,7 +389,7 @@ class SimpleUpgradeViewWidgetState extends State<SimpleUpgradeViewWidget> {
 
   // 下载进度
   _buildDownloadProgress() {
-    final primaryColor = Theme.of(context).primaryColor.withOpacity(0.4);
+    final primaryColor = Theme.of(context).primaryColor.withValues(alpha: 0.4);
     final progressBarColor = widget.progressBarColor ?? primaryColor;
 
     return widget.progressBar ??

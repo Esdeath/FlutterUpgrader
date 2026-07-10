@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_upgrader/flutter_upgrader.dart';
+import 'package:flutter_upgrader_plus/flutter_upgrader.dart';
 
 void main() {
   runApp(const MaterialApp(home: MyApp()));

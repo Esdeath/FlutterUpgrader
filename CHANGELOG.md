@@ -1,3 +1,8 @@
+## 1.1.21
+
+- Publish maintained fork as `flutter_upgrader_plus`.
+- Update package metadata to point to the maintained fork repository.
+
 ## 1.1.20
 - chore: upgrade dependencies
 - fix: fix some bugs

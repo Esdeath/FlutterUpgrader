@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftFlutterUpgraderPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_upgrader", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "flutter_upgrader_plus", binaryMessenger: registrar.messenger())
     let instance = SwiftFlutterUpgraderPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

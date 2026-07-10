@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_upgrader/flutter_upgrader.dart';
-import 'package:flutter_upgrader/flutter_upgrader_view.dart';
+import 'package:flutter_upgrader_plus/flutter_upgrader.dart';
+import 'package:flutter_upgrader_plus/flutter_upgrader_view.dart';
 
 class AppUpgradeManager {
   static upgrade(
