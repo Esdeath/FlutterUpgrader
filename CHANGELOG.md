@@ -2,6 +2,7 @@
 
 - Publish maintained fork as `flutter_upgrader_plus`.
 - Update package metadata to point to the maintained fork repository.
+- Add Swift Package Manager support for iOS while keeping CocoaPods support.
 
 ## 1.1.20
 - chore: upgrade dependencies
